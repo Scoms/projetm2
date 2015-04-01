@@ -1,0 +1,66 @@
+div.promoBanner{
+    background-color: white;
+    color : #7f7f7f;
+    margin-top: 12px;
+    height: 43px;
+    
+    border-bottom: solid #cccccc 3px;
+}
+
+div.promoBanner ul{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+div.promoBanner ul li{
+       
+    display: inline-block;
+    margin-top: 9px;
+    height: 25px;
+    width: 30%;
+    margin-left: 15px;
+    
+}
+div.promoBanner ul li div{
+    display: inline-block;
+}
+
+div.promoBanner ul li img{
+       height: 100%;
+}
+
+
+div.promoBanner ul li div.floatRight{
+       padding: 2px 0px 0 8px;
+    float: none;
+
+        margin-left: 2px;
+}
+
+div.promoBanner div.lighter{
+    color:#c1c1c1;
+}
+
+/*
+    La fusée arianne
+*/
+
+div.breadScrum{
+    font-size: 10px;
+    font-weight: normal;
+    color: #afafaf;
+    margin-top: 21px;
+}
+
+
+div.breadScrum div.highlight{
+    color:#e82d2d;
+}
+div.breadScrum div, div.breadScrum span{
+    display: inline-block;
+    margin-right: 10px;
+    height: 100%;
+}

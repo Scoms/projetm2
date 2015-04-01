@@ -1,0 +1,87 @@
+div.main{
+    display: inline-block;
+    margin-top: 14px;
+    width:100%;
+}
+
+
+div.container{
+    width: 880px;
+    min-height: 500px;
+    padding: 0;
+    margin: 0;
+    display: block;
+    float: right;
+}
+
+/*
+    Banner/ search bar
+*/
+
+div.container div.searchBanner{
+    margin-top: 0px;
+}
+
+div.container div.searchBanner div{
+    height: 40px;
+    width: 100%;
+    background-color: white;
+}
+
+div.container div.searchBanner div.top{
+    border-bottom: solid #e8e8e8 1px;
+}
+
+div.container div.searchBanner div.top h1{
+    color:#e92e2e;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+div.container div.searchBanner div.top p{
+    float:right;
+    margin-right: 15px;
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+/*
+    BOTTOM
+*/
+
+div.container div.searchBanner div.bottom{
+    display: inline-block;
+    margin-top: -3px;
+}
+
+div.container div.searchBanner div.bottom img{
+    height: 14px;
+    width:34px;
+    
+    margin-left: 10px;
+    margin-top: 15px;
+    display: inline-block;
+    float: left;
+}
+
+div.container div.searchBanner div.bottom div.options{
+    float:right;
+    width: 500px;
+    background-color: none;
+    margin-right: 0px;
+    
+}
+div.container div.searchBanner div.bottom div.options div{
+    display: inline-block;
+    width: 240px;
+    padding-top: 8px;
+}
+
+div.container div.searchBanner div.bottom div.options div p{
+    font-size: 11px;
+    margin-right: 12px;
+    display: inline;
+}

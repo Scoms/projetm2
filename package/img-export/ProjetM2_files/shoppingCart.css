@@ -1,0 +1,102 @@
+/*
+
+*/
+
+div.message{
+    background-color: #89c3ff;
+    color: white;
+    height: 30px;
+    margin-top: 16px;
+    font-weight: 50;
+    font-size: 13px;
+    padding-top: 6px;
+    padding-left: 5px;
+}
+
+/*
+
+*/
+
+div.caddie table{
+    margin-top: 13px;   
+    width:100%;
+}
+
+div.caddie tr.header{
+    background-color: #ef5159;   
+    color: white;
+    height: 40px;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+div.caddie tr.header td{
+
+    padding-left: 15px;
+}
+
+div.caddie tr.item{
+    background-color: white;
+    height: 110px;
+}
+div.caddie tr.item td{}
+
+div.caddie tr.item td.thumb img{
+    background-color: #d7d7d7;
+    width: 68px;
+    height: 68px;
+    margin-left: 11px;
+    border: none;
+    border-width: 0px;
+    border-radius: 0px;
+    margin-right: 15px;
+}
+
+div.caddie tr.item td.bold{
+    font-weight: bold;}
+div.caddie tr.item td.red{
+    color:#e92d2d;
+    font-weight: bold;
+}
+
+div.caddie tr.item td.input input{
+    width: 50px;
+}
+
+div.buttonsC{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+div.buttonsC input.redButton{
+    float:right;
+}
+input.blackButton{
+
+    background-color:black;
+  color: white;
+  border: none;
+  font-size: 11px;
+  height: 35px;
+  padding: 11px 15px 13px 15px;
+  float: ;
+}
+
+div.caddie table td.name{
+    width:727px;
+}div.caddie table td.bold{
+    width:80px;
+    padding-left: 20px;
+}div.caddie table td.red{
+    width:80px;
+    padding-left: 20px;
+}
+div.caddie table td.cross{
+    padding-left: 30px;
+}
+
+div.caddie table td.input{
+    
+    padding-left: 10px;
+    width:70px;
+}

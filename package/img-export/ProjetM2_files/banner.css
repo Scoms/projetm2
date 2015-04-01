@@ -1,0 +1,93 @@
+/*
+    TOP BANNER
+*/
+div.banner{ 
+    background-color: #020202;
+    height: 93px;
+}
+
+
+div.bannerLeft{
+    color:#FFFFFF;
+    display: inline-block;
+    float: left;
+    height: 100%;
+        
+    background: #323232; 
+    background: -webkit-radial-gradient(center, ellipse cover,  #323232 20%,#080808 70%); /* Chrome10+,Safari5.1+ */
+
+
+}
+
+div.bannerLeft h1{
+    font-size: 29px;
+    margin-top:27px;
+    margin-left: 24px;
+    
+    
+}
+
+div.bannerRight{
+    display: inline-block;  
+    color:#9b9b9b;
+    float:right;    
+}
+
+div.bannerRight {
+    display: block;
+}
+
+div.bannerRight ul{
+    display: inline-block;
+    float: right;
+}
+
+div.bannerRight ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 15px;
+    margin-top: 8px;
+    height: 10px;
+}
+
+div.bannerRight span{
+    height: 5px;   
+}
+
+div.bannerRight ul.customList{
+    display: inline-block;
+    list-style: none;
+    margin-right: 15px;
+    height: 37px;
+    margin-bottom: 17px;
+}  
+
+div.bannerRight ul.customList li{
+    margin-top: 0px;
+    height: 100%;
+}
+
+div.bannerRight ul.customList li.top{
+    font-size: :bold;
+    color: #aeaeae;
+}
+
+div.bannerRight ul.customList li img{
+    margin-top: 3px;;
+    margin-right: 6px;
+    
+}
+
+li.itemsLi {
+    color:#fbfbfb;   
+}
+
+li.itemsLi div.count{
+    font-size: 25px;   
+    margin-right: 3px;;
+    padding: 0;
+}
+
+li.itemsLi div.floatRight{
+    margin-top: 3px;   
+}

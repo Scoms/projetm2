@@ -1,0 +1,128 @@
+/*
+    TOP BANNER
+*/
+div.banner{ 
+    background-color: #020202;
+    height: 93px;
+}
+
+
+div.bannerLeft{
+    color:#FFFFFF;
+    display: inline-block;
+    float: left;
+    height: 100%;
+        
+    background: #323232; 
+    background: -webkit-radial-gradient(center, ellipse cover,  #323232 20%,#080808 70%); /* Chrome10+,Safari5.1+ */
+
+
+}
+
+div.bannerLeft a{
+    font-size: 29px;
+    margin-left: 24px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 25px;
+    vertical-align: middle;
+}
+
+div.bannerLeft a:hover{
+    text-decoration: none;
+}
+
+div.bannerRight{
+    display: inline-block;  
+    color:#9b9b9b;
+    float:right;    
+}
+
+div.bannerRight {
+    display: block;
+}
+
+div.bannerRight ul{
+    display: inline-block;
+    float: right;
+}
+
+div.bannerRight ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 15px;
+    margin-top: 8px;
+    height: 10px;
+}
+
+div.bannerRight span{
+    height: 5px;   
+}
+
+div.bannerRight ul.customList{
+    display: inline-block;
+    list-style: none;
+    margin-right: 15px;
+    height: 37px;
+    margin-bottom: 17px;
+}  
+
+div.bannerRight ul.customList li{
+    margin-top: 0px;
+    height: 100%;
+}
+
+ul.customList li a{
+    
+    margin-top: 0px;
+    height: 100%;
+    font-size: :bold;
+    color: #aeaeae;
+    font-size: 14px;
+}
+
+div.bannerRight ul.customList li.top{
+    font-size: :bold;
+    color: #aeaeae;
+}
+
+div.bannerRight ul.customList li img{
+    margin-top: 3px;;
+    margin-right: 6px;
+    
+}
+
+li.itemsLi a{
+    text-decoration: none;
+    color:#fbfbfb;  
+    
+}
+li.itemsLi a:hover{
+    text-decoration: none;
+}
+
+li.itemsLi {
+    color:#fbfbfb;   
+}
+
+li.itemsLi a div.count{
+    font-size: 38px;   
+    margin-right: 3px;;
+    margin-top: -11px;
+    padding: 0;
+    vertical-align: top;
+}
+
+li.itemsLi div.floatRight{
+    margin-top: 3px;   
+    vertical-align: top;
+}
+ul.customList li a.itemShop {
+    color: white;
+    
+}
+
+ul.customList li a.itemShop .count {
+   font-size: 45px;
+}

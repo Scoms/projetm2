@@ -1,0 +1,23 @@
+/*
+    GlobalLayout
+*/
+
+html, body{
+    height: 100%;   
+    font-family: arial, verdana, sans-serif;
+    
+    background-color: #F1F0F0;
+}
+
+div.myContainer{
+    margin:auto;
+    height: 100%;
+    width: 1180px;
+}
+
+div.floatLeft{
+    float:left;   
+}
+div.floatRight{
+    float:right;   
+}

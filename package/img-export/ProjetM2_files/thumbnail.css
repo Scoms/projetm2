@@ -1,0 +1,118 @@
+
+div.mythumbnail{
+    display: inline-block;
+    width:281px;
+    padding: 0;
+    margin-right: 14px;
+    height: 500px;
+    margin-top: 28px;
+}
+
+div.endRow{
+    margin-right: 0px;
+}
+
+/*
+    Picture
+*/
+
+div.mythumbnail img.pictureShadow{
+    width:281px;
+    margin: 0;
+    margin-top: 273px;
+    
+    
+    position:relative;
+}
+
+
+div.mythumbnail div.picture{
+    width:281px;
+    height: 289px;
+    background-color: #d7d7d7;
+    
+    
+    z-index:100;
+    position:absolute;    
+}
+
+div.mythumbnail div.picture input{
+    width: 140px;
+    height: 40px;
+    border: none;
+    background-color: #202020;
+    color:white;
+    margin: 114px 0 0 68px;
+}
+
+div.mythumbnail div.picture input:hover{
+
+    cursor: pointer;
+}
+/*
+    Text
+*/
+div.mythumbnail div.text{
+    font-size: 13px;
+    color:black;
+}
+div.mythumbnail div.text:hover{
+    cursor: pointer;
+    color:#0072ff;
+}
+
+/*
+    Price
+*/
+div.mythumbnail div.price{
+    color:#e92d2d;
+    font-size: 13px;
+    margin: 13px 0 25px 0;
+    font-weight: bold;
+}
+
+/*
+    Actions
+*/
+div.mythumbnail div.actions{
+    height: 35px;
+}
+
+
+
+input.redButton{
+    background-color:#e92e2e;
+    color: white;
+    border: none;
+    font-size: 11px;
+    height: 35px;
+    padding: 11px 15px 13px 15px;
+    float: left;
+}
+
+div.mythumbnail div.actions div.buttons{
+    display: inline-block;
+    height: 35px;
+    margin-left: 12px;
+    width: 20px;
+}
+
+
+div.mythumbnail div.actions div.buttons div{
+    height: 16px;
+    width: 20px;
+    display: block;
+    margin-bottom: 6px;
+    margin-top:-2px;
+}
+
+/*
+    Hover
+*/
+div.mythumbnail div.picture input{
+    visibility: hidden;
+}
+
+div.mythumbnail div.picture:hover input{
+    visibility: visible;
+}

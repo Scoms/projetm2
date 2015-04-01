@@ -1,0 +1,119 @@
+div.block{
+    display: block;
+    width:100%;
+    height: 35px;
+}
+
+div.checkout{
+    margin-bottom: 70px;
+    width: 380px;
+    display: inline-block
+}
+
+/*
+    Header
+*/
+
+div.checkout div.numberedTitle{
+    font-weight: bold;
+    font-size: 13px;
+    height: 25px;
+    margin-bottom   : 15px;
+    
+    display: block;
+    
+}
+div.checkout div.numberedTitle span{
+    color:#939393;
+    border:solid #838383 1px;
+    padding: 1px 0 0 7px;
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+}
+
+div.checkout div.numberedTitle h2{
+    font-size:13px;
+    display: inline;
+    color:#696969;
+    height: 100%;
+    font-weight: bold;
+}
+
+div.numberedTitle-red{
+    font-weight: bold;
+    font-size: 13px;
+    height: 25px;
+    margin-bottom   : 15px;
+    display: block;
+    color:#e92d2d;
+}
+
+div.checkout div.numberedTitle-red span{
+    color:#e92d2d;
+    border:solid #e92d2d 1px;
+    padding: 1px 0 0 7px;
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+}
+
+div.checkout div.numberedTitle-red h2{
+    font-size:13px;
+    display: inline;
+    color:#e92d2d;
+    height: 100%;
+    font-weight: bold;
+}
+
+/*
+
+*/
+
+div.checkout h2, div.login h2{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+div.checkout p, div.checkout label{
+    font-size: 12px;
+}
+
+div.checkout label{
+    font-weight: normal;
+    margin-left: 9px;
+}
+
+div.row{
+    display: block;
+    margin: 0;
+}
+
+div.currentStep{
+    margin-bottom: 30px;
+}
+
+/*
+    LOGIN
+*/
+
+div.login{
+    display: inline-block;
+    width: 380px;   
+    margin-top: 0;
+    height: 100%;
+    float: right;
+}
+
+div.login input[type="text"]{
+    width:370px;
+}
+
+div.asterisk{
+    color:#e92d2d;
+    text-align: right;
+    margin-top: 8px;
+    font-size: 9px;
+    margin-right:10px;
+    display: block;
+}

@@ -1,0 +1,66 @@
+footer{
+    background-color: white;
+    
+    position: relative;
+    width: 1180px;
+    bottom: 0;
+    font-size: 12px;
+}
+
+footer div.packed{
+    width: 33%;
+    display: inline-block;
+}
+
+footer img.imgTop{
+    margin-top: -25px;
+    width:1180px;
+    height: 6px;
+}
+
+footer div.menus{
+    color:#858585;
+    margin: 0 75px 0 19px;
+}
+
+footer div.menus div.menu{
+    display: inline-block;
+    max-width:150px;
+    top:0px;
+    margin-top: 0;
+    margin-right: 28px;
+    
+    
+}
+
+footer div.menus div.menu span.caption{
+    display: block;
+    color: #e92d2d;
+    margin-bottom: 16px;
+    top:0;
+    font-weight: bold;
+}
+
+footer div.menus div.menu ul{
+    padding: 0 0 0 0;
+}
+
+footer div.menus div.menu ul li{
+    list-style: none;
+    padding-bottom: 13px;
+}
+
+footer div.sponsor{
+    width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+    height: 80px;
+}
+footer div.sponsor img{
+margin-right:8px;
+}
+/*
+    Loren : 4d4d4d
+    Help 8e8e8e
+/*
+
